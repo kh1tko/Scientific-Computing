@@ -43,3 +43,7 @@ def add_time(start, duration, starting_day=None):
         new_time += f" ({total_days} days later)"
 
     return new_time
+
+
+if __name__ == '__main__':
+    print(add_time('6:30 PM', '205:12'))
